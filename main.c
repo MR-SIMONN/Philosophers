@@ -6,7 +6,7 @@
 /*   By: moel-hai <moel-hai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 05:05:22 by moel-hai          #+#    #+#             */
-/*   Updated: 2025/04/15 00:10:34 by moel-hai         ###   ########.fr       */
+/*   Updated: 2025/04/15 02:42:04 by moel-hai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 int main (int ac, char **av)
 {
     t_philo ph_data;
+    // pthread_t h;
 
     parsing(ac, av, ph_data);
 }

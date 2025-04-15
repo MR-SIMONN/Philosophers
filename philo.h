@@ -6,7 +6,7 @@
 /*   By: moel-hai <moel-hai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 05:05:49 by moel-hai          #+#    #+#             */
-/*   Updated: 2025/04/14 23:53:20 by moel-hai         ###   ########.fr       */
+/*   Updated: 2025/04/15 02:52:06 by moel-hai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,6 @@ typedef struct s_philo
 void    parsing(int ac, char **av, t_philo ph_data);
 int	    ft_atoi(char	*str);
 void    errors(char *str);
+int     ft_isdigit(int c);
 
 # endif
